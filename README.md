@@ -1,7 +1,7 @@
 # PolyEdge Python SDK
 
-[![PyPI version](https://img.shields.io/pypi/v/polyedge.svg?color=blue)](https://pypi.org/project/polyedge/)
-[![Python versions](https://img.shields.io/pypi/pyversions/polyedge.svg)](https://pypi.org/project/polyedge/)
+[![PyPI version](https://img.shields.io/pypi/v/polyedge.svg?color=blue&cache=1)](https://pypi.org/project/polyedge/)
+[![Python versions](https://img.shields.io/pypi/pyversions/polyedge.svg?cache=1)](https://pypi.org/project/polyedge/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Documentation](https://img.shields.io/badge/docs-polyedge.dev-cyan)](https://polyedge.dev/docs)
 [![Benchmark](https://img.shields.io/badge/benchmark-100%2B_nodes-green)](https://github.com/PolyEdgeDev/polyedge-stream-benchmark)
