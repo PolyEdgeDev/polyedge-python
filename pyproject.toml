@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polyedge"
+version = "1.0.0"
+description = "Official Python SDK for PolyEdge ultra-low latency Polymarket mempool trade streaming and real-time on-chain analytics API."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    { name = "PolyEdge Developer Support", email = "dev@polyedge.dev" }
+]
+keywords = [
+    "polymarket",
+    "polyedge",
+    "polymarket copy trading bot",
+    "polymarket trading bot",
+    "polymarket copy trade",
+    "polymarket smart money",
+    "polymarket smart traders",
+    "polymarket copy trading",
+    "polymarket mempool stream",
+    "polymarket pre-block trades",
+    "polymarket api",
+    "polymarket analytics",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+dependencies = [
+    "httpx>=0.23.0",
+]
+
+[project.urls]
+Homepage = "https://polyedge.dev"
+Documentation = "https://polyedge.dev/docs"
+Repository = "https://github.com/PolyEdgeDev/polyedge-python"
+"Issue Tracker" = "https://github.com/PolyEdgeDev/polyedge-python/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.20.0",
+]
+
+[tool.setuptools.package-data]
+polyedge = ["py.typed"]
